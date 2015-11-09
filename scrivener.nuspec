@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>scrivener</id>
+    <title>scrivener (Install)</title>
+    <version>1.9.0.0</version>
+    <authors>Literature &amp; Latte Ltd</authors>
+    <owners>private</owners>
+    <summary>a word-processing program and outliner designed for authors</summary>
+    <description>Scrivener is a word-processing program and outliner designed for authors. Scrivener provides a management system for documents, notes and metadata. This allows the user to organize notes, concepts, research and whole documents for easy access and reference (documents including text, images, PDF, audio, video, web pages, etc.). Scrivener offers templates for screenplays, fiction, and non-fiction manuscripts. After writing a piece of text, the user may export it to a standard word processor for formatting.
+    </description>
+    <projectUrl>https://www.literatureandlatte.com/scrivener.php</projectUrl>
+    <packageSourceUrl>https://www.literatureandlatte.com/scrivener.php</packageSourceUrl>
+    <!--<projectSourceUrl></projectSourceUrl>
+    <docsUrl></docsUrl>
+    <mailingListUrl></mailingListUrl>
+    <bugTrackerUrl></bugTrackerUrl>-->
+    <tags>scrivener admin writing outliner word-processor creative</tags>
+    <copyright></copyright>
+    <licenseUrl>https://www.literatureandlatte.com/scrivener.php</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/scrivener.png</iconUrl>-->
+    <!--<dependencies>
+      <dependency id="" version="__VERSION__" />
+      <dependency id="" />
+    </dependencies>-->
+    <releaseNotes>https://www.literatureandlatte.com/scrivWinChangeList.php</releaseNotes>
+    <!--<provides></provides>-->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
